@@ -1,5 +1,6 @@
 body {
-    background-color: green;
+    background-color: paleturquoise;
+    background-image: "image.gif";
 }
 h1 {
     color: blue;
@@ -8,4 +9,13 @@ h1 {
 }
 p {
     color: blue;
+}
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
